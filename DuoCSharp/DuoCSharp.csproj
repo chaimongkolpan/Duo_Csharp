@@ -4,4 +4,68 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DuoUniversal" />
+    <None Remove="Microsoft.Bcl.AsyncInterfaces" />
+    <None Remove="Microsoft.CSharp" />
+    <None Remove="Microsoft.IdentityModel.JsonWebTokens" />
+    <None Remove="Microsoft.IdentityModel.Logging" />
+    <None Remove="Microsoft.IdentityModel.Tokens" />
+    <None Remove="System.Buffers" />
+    <None Remove="System.Memory" />
+    <None Remove="System.Net.Http.Json" />
+    <None Remove="System.Numerics.Vectors" />
+    <None Remove="System.Runtime.CompilerServices.Unsafe" />
+    <None Remove="System.Security.Cryptography.Cng" />
+    <None Remove="System.Text.Encodings.Web" />
+    <None Remove="System.Text.Json" />
+    <None Remove="System.Threading.Tasks.Extensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="DuoUniversal">
+      <HintPath>..\..\..\NetDuoLibrary\DuoUniversal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\..\..\NetDuoLibrary\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>..\..\..\NetDuoLibrary\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.JsonWebTokens">
+      <HintPath>..\..\..\NetDuoLibrary\Microsoft.IdentityModel.JsonWebTokens.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Logging">
+      <HintPath>..\..\..\NetDuoLibrary\Microsoft.IdentityModel.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.IdentityModel.Tokens">
+      <HintPath>..\..\..\NetDuoLibrary\Microsoft.IdentityModel.Tokens.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Buffers">
+      <HintPath>..\..\..\NetDuoLibrary\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory">
+      <HintPath>..\..\..\NetDuoLibrary\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Json">
+      <HintPath>..\..\..\NetDuoLibrary\System.Net.Http.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>..\..\..\NetDuoLibrary\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+      <HintPath>..\..\..\NetDuoLibrary\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Cng">
+      <HintPath>..\..\..\NetDuoLibrary\System.Security.Cryptography.Cng.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web">
+      <HintPath>..\..\..\NetDuoLibrary\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json">
+      <HintPath>..\..\..\NetDuoLibrary\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\..\..\NetDuoLibrary\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
 </Project>
